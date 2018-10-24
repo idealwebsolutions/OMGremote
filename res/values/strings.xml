@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Omegle Remote</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_service">Omegle Remote</string>
+    <string name="launcher_text">Omegle is a great way of meeting new friends. When you use Omegle, we pick another user at random and let you have a one-on-one chat with each other. Chats are completely anonymous, and you can disconnect whenever you like, although there is also nothing to stop you from revealing personal details if you choose to.</string>
+	<string name="similar_title">Find Strangers with Common Interests</string>
+	<string name="request_language">Choose a language</string>
+	<string name="start">Start your chat</string>
+	<string name="common_interests_search_hint">Type interests here (use comma for more)</string>
+	<string name="common_type_hint">Type text here</string>
+	<string name="text_option">Text</string>
+	<string name="video_option">Video</string>
+	<string name="spy_option">Spy Mode</string>
+	<string name="watch_option">Random Mode</string>
+	<string name="strangers"> strangers online</string>
+	<string name="leave_button">Leave</string>
+	<string name="send_button">Send</string>
+	<string name="default_text_start">You\'re now chatting with a random stranger. Say hi!</string>
+	<string name="question_mode_title">Try spy (question) mode</string>
+	<string name="question_pretext">Spy mode lets you ask a question and watch two strangers discuss it. (The strangers volunteer to be watched.) Ask anything you like, but try to keep questions open-ended and thought-provoking.</string>
+	<string name="ask_text">Enter a question:</string>
+	<string name="enter_question_hint">Enter question here</string>
+	<string name="loading_text">Loading</string>  
+</resources>

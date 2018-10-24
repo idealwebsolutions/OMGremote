@@ -1,0 +1,78 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF" >
+
+    <LinearLayout
+        android:id="@+id/main_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#FAFAFA"
+        android:orientation="vertical" >
+
+        <include
+            android:layout_width="0dip"
+            layout="@layout/header" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dip"
+            android:layout_gravity="center"
+            android:layout_weight="2.15"
+            android:orientation="vertical" >
+
+            <FrameLayout
+                android:id="@+id/chat_frame"
+                android:layout_width="match_parent"
+        		android:layout_height="wrap_content"
+        		android:layout_margin="5dp" >
+            </FrameLayout>
+            
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="5dp"
+            android:layout_marginBottom="1dp"
+            android:layout_marginLeft="1dp"
+            android:layout_marginRight="1dp"
+            android:layout_marginTop="5dp"
+            android:orientation="horizontal" >
+
+            <Button
+                android:id="@+id/leave_button"
+                android:layout_width="64dp"
+                android:layout_height="48dp"
+                android:layout_margin="5dp"
+                android:background="@drawable/chat_button_layout"
+                android:text="@string/leave_button"
+                android:textColor="#1C1C1C" />
+
+            <EditText
+                android:id="@+id/text_area"
+                android:layout_width="0dip"
+                android:layout_height="48dp"
+                android:layout_margin="5dp"
+                android:layout_weight="0.02"
+                android:ems="10"
+                android:hint="@string/common_type_hint"
+                android:maxLength="256"
+                android:singleLine="true" >
+            </EditText>
+
+            <Button
+                android:id="@+id/send_button"
+                android:layout_width="64dp"
+                android:layout_height="48dp"
+                android:layout_margin="5dp"
+                android:background="@drawable/chat_button_layout"
+                android:text="@string/send_button"
+                android:textColor="#1C1C1C" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>
